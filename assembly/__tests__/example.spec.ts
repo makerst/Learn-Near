@@ -1,9 +1,9 @@
-import {hello_world} from '../';
+import {helloWorld} from '../';
 
 
 //Test
 describe("example", () => {
   it("should return Hello World", () => {
-    expect<string>(hello_world()).toBe("Hello World");
+    expect<string>(helloWorld()).toBe("Hello World");
   });
 });
